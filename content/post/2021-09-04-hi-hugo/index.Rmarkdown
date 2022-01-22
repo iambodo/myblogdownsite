@@ -1,0 +1,41 @@
+---
+title: Hi Hugo
+author: ''
+date: '2021-09-04'
+slug: hi-hugo
+categories: []
+tags: []
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2021-09-04T11:01:03+02:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+![my-first-image](im-cool-golden-girls.gif)
+
+```{r echo=FALSE}
+library(ggplot2)
+oplot <- ggplot(Orange, aes(x = age, 
+                   y = circumference, 
+                   colour = Tree)) +
+  geom_point() +
+  geom_line() +
+  guides(colour = "none") +
+  theme_bw()
+oplot
+```
+
+
+
+```{r}
+summary(Orange)
+```
+
+
+=
